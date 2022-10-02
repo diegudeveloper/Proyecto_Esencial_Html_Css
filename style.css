@@ -163,7 +163,7 @@ button {
     height: 48px;
     border-radius: 90px;
     border: none;
-    left: 940px;
+    margin-left: -120px;
     color: #fff;
     background-color: #000;
 }
@@ -172,10 +172,32 @@ footer {
     height: 174px;
     margin-top: 113px;
     background-color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
-footer .Icons {
-    width: 2%;
+footer .conrainerFooter {
+    
+}
+
+footer .conrainerFooter p {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+footer .conrainerFooter .iconsFooter {
+    width: 100%;
+    text-align: center;
+}
+
+footer .conrainerFooter .Icons {
+    width: 8%;
     margin-bottom: 0;
+    flex: 1;
 }
 
