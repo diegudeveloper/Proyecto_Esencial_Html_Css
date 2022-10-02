@@ -14,13 +14,63 @@ body {
     width: 80%;
     margin: 0 auto;
     font-family: var(--FontFamilyMain);
-    line-height: 24px;
     text-align: justify;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 16px;
+    color:#212121;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+img:last-child {
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+.containerList {
+    margin-bottom: 40px;
+}
+
+.propiedades {
+    margin-bottom: 16px;
+}
+
+.section-content2 ol li {
+    line-height: 24px;
+    list-style-position: inside
+}
+.section-content2 ul li {
+    list-style-position: inside;
+    margin-bottom: 16px;
+}
+
+.section-content2 h2 {
+    margin-bottom: 16px;
+}
+
+.section-content2 .cajaModel {
+    margin-top: 40px;
 }
 
 .containerHeader {
@@ -87,8 +137,45 @@ header {
     margin-bottom: 64px;
 }
 
+.separacion2 {
+    margin-top: 64px;
+}
+
 .img {
     margin-top: 40px;
     margin-bottom: 16px;
+}
+
+input {
+    width: 280px;
+    height: 48px;
+    border-radius: 90px;
+    border: 1px solid #616161;
+}
+
+
+input::placeholder {
+    padding-left: 16px;
+}
+
+button {
+    width: 119px;
+    height: 48px;
+    border-radius: 90px;
+    border: none;
+    left: 940px;
+    color: #fff;
+    background-color: #000;
+}
+
+footer {
+    height: 174px;
+    margin-top: 113px;
+    background-color: #212429;
+}
+
+footer .Icons {
+    width: 2%;
+    margin-bottom: 0;
 }
 
