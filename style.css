@@ -11,8 +11,8 @@
 }
 
 body {
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
     font-family: var(--FontFamilyMain);
     text-align: justify;
 }
