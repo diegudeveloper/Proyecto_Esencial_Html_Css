@@ -124,18 +124,23 @@ header {
 
 .section-content h3 {
     counter-increment: titleList;
+    position: relative;
+    padding-bottom: 4px;
 }
 
 .section-content h3::before {
-    content: counter(titleList, decimal);
+    content: counter(titleList, decimal) ". ";
 }
 
 .section-content h3::after {
-    content: "" ;
-    width: 32px;
+    content: " " ;
+    width: 100px;
     height: 4px;
     background: var(--colorFirst);
     display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .Text1 {
