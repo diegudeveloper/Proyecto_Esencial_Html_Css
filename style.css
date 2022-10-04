@@ -21,6 +21,7 @@ h1 {
     font-size: 50px;
     margin-bottom: 16px;
     color:#212121;
+    text-align: start;
 }
 
 h2 {
@@ -47,6 +48,10 @@ img {
 img:last-child {
     width: 100%;
     margin-bottom: 72px;
+}
+
+.heroImg > .imgHero {
+    margin-bottom: 0px;
 }
 
 .containerList {
@@ -110,6 +115,7 @@ header {
 
 .containerMain {
     width: 70%;
+    padding: 20px;
 }
 
 .section-content {
