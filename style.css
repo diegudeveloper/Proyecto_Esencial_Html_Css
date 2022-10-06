@@ -87,6 +87,7 @@ img:last-child {
     width: 100%;
     display: flex;
     margin-top: 64px;
+    padding: 0 10%;
 }
 
 .heroImg {
@@ -111,6 +112,17 @@ img:last-child {
 
 header {
     width: 30%;
+    padding: 20px;
+}
+
+header li {
+    margin-bottom: 16px;
+    list-style-position: inside;
+}
+
+header li a {
+    text-decoration: none;
+    color: #000;
 }
 
 .containerMain {
