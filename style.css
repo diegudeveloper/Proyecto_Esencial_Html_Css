@@ -11,8 +11,8 @@
 }
 
 body {
-    /* width: 80%;
-    margin: 0 auto; */
+    /* width: 80%;*/
+    color: #616161;
     font-family: var(--FontFamilyMain);
     text-align: justify;
 }
@@ -115,14 +115,24 @@ header {
     padding: 20px;
 }
 
+header details summary {
+    text-align: left;
+    line-height: 24px;
+}
+
 header li {
     margin-bottom: 16px;
     list-style-position: inside;
+    margin-left: 15px;
+}
+header li:first-child {
+    margin-top: 10PX;
 }
 
 header li a {
     text-decoration: none;
-    color: #000;
+    font-size: 14px;
+    color: #616161;
 }
 
 .containerMain {
