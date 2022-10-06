@@ -113,6 +113,13 @@ img:last-child {
 header {
     width: 30%;
     padding: 20px;
+    /* position: sticky;
+    top: 0; */
+}
+
+header nav {
+    position: sticky;
+    top: 0;
 }
 
 header details summary {
