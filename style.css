@@ -313,6 +313,8 @@ footer .conrainerFooter .Icons {
 @media only screen and (max-width: 425px) {
     .containerHeader {
         flex-direction: column;
+        margin-top: 30px;
+        padding: 0;
     }
     header {
         width: 90%;
