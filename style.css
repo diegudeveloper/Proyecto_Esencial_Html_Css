@@ -232,9 +232,18 @@ footer {
     
 }
 
-footer .conrainerFooter {
-    
+.slider {
+    border: 5px solid red;
 }
+
+.slider-container {
+
+}
+
+.slider-slide {
+    border:  5px blue;
+}
+
 
 footer .conrainerFooter p {
     width: 100%;
