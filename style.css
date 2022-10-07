@@ -332,6 +332,10 @@ footer .conrainerFooter .Icons {
     footer {
         margin-top: 40px;
     }
+
+    footer .conrainerFooter > p {
+        font-size: 16px;
+    }
 }
 
 
