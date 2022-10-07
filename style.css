@@ -237,12 +237,26 @@ footer {
 }
 
 .slider-container {
-
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    margin: 0;
 }
 
 .slider-slide {
-    border:  5px blue;
+    margin: 0;
 }
+
+.slider-slide img {
+    width: 100%;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 footer .conrainerFooter p {
