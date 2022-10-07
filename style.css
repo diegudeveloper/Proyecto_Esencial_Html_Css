@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* width: 80%;*/
     color: #616161;
@@ -64,6 +68,10 @@ img:last-child {
 
 .section-content > img {
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.section-content .imgPicture {
+    width: 100%;
 }
 
 .section-content2 ol li {
@@ -246,3 +254,22 @@ footer .conrainerFooter .Icons {
     flex: 1;
 }
 
+@media only screen and (max-width: 768px) {
+    .heroImg img {
+        width: 40%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 24px;
+        text-align: start;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+  }
