@@ -311,6 +311,10 @@ footer .conrainerFooter .Icons {
 }
 
 @media only screen and (max-width: 425px) {
+
+    .heroImg {
+        height: 200px;
+    }
     .containerHeader {
         flex-direction: column;
         margin-top: 30px;
