@@ -286,6 +286,14 @@ footer .conrainerFooter .Icons {
         width: 90%;
         margin: 0 auto;
     }
+
+    button {
+        margin-left: 0;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
 }
 
 
