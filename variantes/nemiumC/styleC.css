@@ -15,37 +15,37 @@ html {
 }
 
 body {
-    color: #616161;
+    /* color: #616161; */
     font-family: var(--FontFamilyMain);
     text-align: justify;
-    background-color: #251F24;
-    color: ;
+    background-color: #fff;
+    
 
 }
 
 h1 {
     font-size: 50px;
     margin-bottom: 16px;
-    color:#FFFFFF;
+    color:#000;
     text-align: start;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 40px;
-    color:#FFFFFF;
+    color:#000;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 20px;
     margin-bottom: 24px;
-    color:#FFFFFF;
+    color:#000;
 }
 
 p {
     line-height: 24px;
     margin-bottom: 16px;
-    color:#A5A3A5;
+    color:#424242;
 }
 
 img {
@@ -67,7 +67,8 @@ img:last-child {
 }
 
 .containerList ol > li {
-    color: #A5A3A5;
+    color: #616161;
+    width: 200px;
 }
 
 .propiedades {
@@ -75,7 +76,7 @@ img:last-child {
 }
 
 ul > li {
-    color: #A5A3A5;
+    color:#424242;
 }
 
 .section-content 
@@ -116,13 +117,6 @@ ul > li {
 .heroImg {
     width: 100%;
     height: 350px;
-    /*background: #f12711;  /* fallback for old browsers
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 
-    background: linear-gradient(to right, #f5af19, #f12711); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
-
-
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
@@ -137,7 +131,7 @@ ul > li {
 }
 
 header {
-    width: 30%;
+    width: 100%;
     padding: 20px;
     /* position: sticky;
     top: 0; */
@@ -155,14 +149,17 @@ header nav details .variantesProjects {
 header details summary {
     text-align: left;
     line-height: 24px;
-    color: #fff;
+    color:#424242;;
 }
 
 header li {
+    width: 200px;
     margin-bottom: 16px;
     list-style-position: inside;
     margin-left: 15px;
     color: #A5A3A5;
+    border-radius: 5px;
+    padding: 5px;
 }
 header li:first-child {
     margin-top: 10PX;
@@ -175,7 +172,7 @@ header li a {
 }
 
 .containerMain {
-    width: 70%;
+    width: 100%;
     padding: 20px;
 }
 
@@ -224,33 +221,51 @@ header li a {
 }
 
 input {
-    width: 100%;
+    width: 280px;
     height: 48px;
-    border-radius: 3px;
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-    background-color: transparent;
+    border-radius: 90px;
+    border: 1px solid #616161;
+    margin-right: 10px;
 }
 
 
 input::placeholder {
     padding-left: 16px;
-    color: #FFFFFF;
-    ;
 }
 
 button {
-    width: 100%;
+    width: 119px;
     height: 48px;
-    border-radius: 3px;
+    border-radius: 90px;
     border: none;
+    margin-left: -120px;
     color: #fff;
-    background-color: #157EFB;
-    ;
+    background-color: #000;
 }
 
-header nav details .variantesProjects li a:hover {
-    background-color: orange;
+
+header nav .containerMenu {
+    margin-bottom: 120px;
+}
+
+header nav .containerMenu2, .containerMenu3 {
+    margin-left: 10px;
+}
+
+header nav .containerMenu2::before {
+    content: "";
+    width: 4px;
+    height: 535px;
+    background-color: #616161;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+header nav .containerMenu .variantesProjects li:hover {
+    background-color: #000;
     padding: 5px;
 }
 
@@ -309,12 +324,10 @@ p .correo {
     flex-wrap: wrap;
 }
 
-
-
 footer {
     height: 174px;
     margin-top: 113px;
-    background-color:#FFFFFF;
+    background-color:#212429;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +338,7 @@ footer .conrainerFooter p {
     width: 100%;
     text-align: center;
     font-size: 32px;
-    color: #000;
+    color: #fff;
 }
 
 footer .conrainerFooter .iconsFooter {
@@ -337,7 +350,6 @@ footer .conrainerFooter .Icons {
     width: 8%;
     margin-bottom: 0;
     flex: 1;
-    background-color: #000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -377,10 +389,6 @@ footer .conrainerFooter .Icons {
     .containerMain {
         width: 90%;
         margin: 0 auto;
-    }
-
-    button {
-        margin-left: 0;
     }
 
     footer {
