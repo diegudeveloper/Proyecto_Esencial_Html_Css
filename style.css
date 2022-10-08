@@ -230,19 +230,9 @@ header nav details .variantesProjects li a:hover {
     padding: 5px;
 }
 
-footer {
-    height: 174px;
-    margin-top: 113px;
-    background-color: #212429;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
 
-<<<<<<< HEAD
-=======
+/*slider*/
+
 .slider-container {
     display: block;
     overflow: auto;
@@ -283,7 +273,23 @@ footer {
     cursor: pointer;
 }
 
->>>>>>> 968b758bb0cfc179f24153828b79299b0d82b4bb
+
+
+/*slider*/
+
+
+
+
+footer {
+    height: 174px;
+    margin-top: 113px;
+    background-color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 footer .conrainerFooter p {
     width: 100%;
     text-align: center;
