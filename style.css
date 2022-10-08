@@ -92,7 +92,8 @@ img:last-child {
 }
 
 .containerHeader {
-    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
     display: flex;
     margin-top: 64px;
     padding: 0 10%;
